@@ -13,9 +13,9 @@ namespace University_Management_System
 
         private Section[] sections;
 
-        public int sectionCount { get; private set; }
+        public int SectionCount { get; private set; }
         public int SCount { get; set; }
-        public int HourperWeek { get; internal set; }
+        public int HperWeek { get; internal set; }
         public string FID { get; internal set; }
 
         public Faculty()
@@ -31,19 +31,19 @@ namespace University_Management_System
             this.FName = name;
             this.FId = id;
             sections = new Section[50];
-            sectionCount = 0;
+            SectionCount = 0;
 
         }
         public void AddSection(Section sec)
         {
-            if (sectionCount < 50)
-                sections[sectionCount++] = sec;
+            if (SectionCount < 50)
+                sections[SectionCount++] = sec;
             else
                 Console.WriteLine("Section is full");
         }
         public void SwSecDetails()
         {
-            for (int i = 0; i < sectionCount; i++)
+            for (int i = 0; i < SectionCount; i++)
                 sections[i].SecShowInfo();
 
         }

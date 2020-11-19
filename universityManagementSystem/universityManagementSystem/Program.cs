@@ -122,9 +122,9 @@ namespace universityManagementSystem
                     
                     if (ob.courselist[i].Section[j].assign == 0)
                     {
-                        if (facultyArray[i].HourperWeek < 21)
+                        if (facultyArray[i].HperWeek < 21)
                         {
-                            facultyArray[i].HourperWeek = facultyArray[i].HourperWeek + ob.courselist[i].TeachingHour;
+                            facultyArray[i].HperWeek = facultyArray[i].HperWeek + ob.courselist[i].TeachingHour;
                             ob.courselist[i].Section[j].teacher = new Faculty
                             {
                                 FName = facultyArray[i].FName,

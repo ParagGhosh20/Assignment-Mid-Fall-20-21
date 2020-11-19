@@ -8,25 +8,14 @@ namespace universityManagementSystem
     {
         public Course[] courselist;
 
+        public string Name { get; set; }
+
+        public int Id { get; set; }
+        public int NOfCourse { set; get; }
+        public string NofDpt { set; get; }
 
 
-        private string name;
 
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
-
-        private int id;
-
-        public int Id   
-        {
-            get { return id; }
-            set { id = value; }
-        }
-
-      
 
         private int totalCourse;
 
@@ -95,8 +84,6 @@ namespace universityManagementSystem
                      listOfcourses()[totalCourse++] = course;
             }
         }
-
-        
 
 
         public void ShowAllCourse()

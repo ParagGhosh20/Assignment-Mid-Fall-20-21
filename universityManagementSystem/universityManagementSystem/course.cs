@@ -6,11 +6,13 @@ namespace universityManagementSystem
 {
     class Course
     {
-        public Courses[] courselist;
+        
         public string Name { get; set; }
 
         public string Id { get; set; }
         public int Add { get; set; }
+
+        private int NumOfSec { get; set; }
 
         public Course() { }
         public Course(string name, string id, int add)
@@ -96,13 +98,10 @@ namespace universityManagementSystem
             }
         }
 
-
-
-
-
-
-
-
+        internal void DShowInfo()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 
