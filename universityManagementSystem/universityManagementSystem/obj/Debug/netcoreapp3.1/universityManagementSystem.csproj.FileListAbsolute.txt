@@ -1,0 +1,4 @@
+C:\Users\Asus\source\repos\universityManagementSystem\universityManagementSystem\obj\Debug\netcoreapp3.1\universityManagementSystem.csprojAssemblyReference.cache
+C:\Users\Asus\source\repos\universityManagementSystem\universityManagementSystem\obj\Debug\netcoreapp3.1\universityManagementSystem.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\universityManagementSystem\universityManagementSystem\obj\Debug\netcoreapp3.1\universityManagementSystem.AssemblyInfo.cs
+C:\Users\Asus\source\repos\universityManagementSystem\universityManagementSystem\obj\Debug\netcoreapp3.1\universityManagementSystem.csproj.CoreCompileInputs.cache
